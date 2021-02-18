@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    /* font-size: 17px; */
+    padding: 8px;
+    background-image: url('tex2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #df4bece0
+}
+.container
+{
+    background-color: #ece8e894;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+fieldset{
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+select,
+textarea{
+    margin-top:10px ;
+    width: 100%;
+    padding: 12px;
+    border : 1px solid #cccccc;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+    color : black;
+    text-shadow: 2px 2px 5px red;
+    /* font-size: 3vw; */
+}
+h2{
+    text-align: center;
+    /* font-size: 2vw; */
+    color : black;
+    text-shadow: 2px 2px 5px greenyellow;
+}
+input[type="submit"]
+{
+    color: white;
+    background-color: rgb(26, 153, 115);
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover
+{
+    background-color: #21f10e;
+    font-size: 22px;
+}
+.manda{
+    text-align: center;
+    color: red;
+    font-size: smaller;
+}
+.asp
+{
+    margin-bottom: 50px;
+}
+.tpm
+{
+    margin-top: 30px;
+}
+.spc{
+    font-size: smaller;
+}
+.alrt{
+    color: red;
+    font-weight: bolder;
+    font-size: smaller;
+}
+.gens2, .gens3, .gens4{
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+    .iitkgp{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 10px;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    textarea{
+        font-size: 10px;
+        padding: 7px;
+    }
+    legend{
+        font-size: 10px;
+    }
+    input[type="submit"]
+        {
+        background-color:rgb(26, 153, 115);
+        color: white;
+         width: 100%;
+          font-size: 12px;
+          padding: 7px 10px;
+           border:none;
+            border-radius: 5px;
+            cursor: pointer;
+           }
+         input[type="submit"]:hover
+         {
+             color: black;
+           background-color:  rgb(41, 216, 41);
+         font-size: 12px;
+     }
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+    .iitkgp{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    textarea{
+        font-size: 13px;
+        padding: 10px;
+    }
+    legend{
+        font-size: 13px;
+    }
+    input[type="submit"]
+        {
+        background-color:rgb(26, 153, 115);
+        color: white;
+         width: 100%;
+          font-size: 15px;
+          padding: 10px 12px;
+           border:none;
+            border-radius: 5px;
+            cursor: pointer;
+           }
+         input[type="submit"]:hover
+         {
+             color: black;
+           background-color:  rgb(41, 216, 41);
+         font-size: 15px;
+     }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px)
+{
+    .iitkgp{
+        font-size: 28px;
+    }
+    
+}
