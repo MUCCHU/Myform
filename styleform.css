@@ -6,17 +6,17 @@ body{
     margin: 15px 30px;
     /* font-size: 17px; */
     padding: 8px;
-    background-image: url('tex2.jpg');
+    /* background-image: url('tex2.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #df4bece0
+    background-size: cover; */
+    background-color:powderblue;
 }
 .container
 {
     background-color: #ece8e894;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 fieldset{
     background-color: white;
@@ -38,19 +38,20 @@ textarea{
 h1{
     text-align: center;
     color : black;
-    text-shadow: 2px 2px 5px red;
-    /* font-size: 3vw; */
+    font-size: 50px;
+    /* text-shadow: 2px 2px 5px red; */
 }
 h2{
     text-align: center;
     /* font-size: 2vw; */
     color : black;
-    text-shadow: 2px 2px 5px greenyellow;
+    font-size: 35px;
+    /* text-shadow: 2px 2px 5px greenyellow; */
 }
 input[type="submit"]
 {
     color: white;
-    background-color: rgb(26, 153, 115);
+    background-color: tomato;
     width: 100%;
     font-size: 20px;
     padding: 12px 20px;
@@ -60,13 +61,13 @@ input[type="submit"]
 }
 input[type="submit"]:hover
 {
-    background-color: #21f10e;
-    font-size: 22px;
+    background-color: #25ce16;
 }
 .manda{
     text-align: center;
     color: red;
     font-size: smaller;
+    font-weight: bold;
 }
 .asp
 {
@@ -86,6 +87,11 @@ input[type="submit"]:hover
 }
 .gens2, .gens3, .gens4{
     margin-left: 20px;
+}
+.logo{
+    width:60px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
 }
 @media screen and (max-width: 600px) {
     .iitkgp{
@@ -115,19 +121,15 @@ input[type="submit"]:hover
     }
     input[type="submit"]
         {
-        background-color:rgb(26, 153, 115);
-        color: white;
-         width: 100%;
+        
           font-size: 12px;
           padding: 7px 10px;
-           border:none;
             border-radius: 5px;
-            cursor: pointer;
            }
          input[type="submit"]:hover
          {
              color: black;
-           background-color:  rgb(41, 216, 41);
+          
          font-size: 12px;
      }
 }
@@ -159,19 +161,15 @@ input[type="submit"]:hover
     }
     input[type="submit"]
         {
-        background-color:rgb(26, 153, 115);
-        color: white;
-         width: 100%;
           font-size: 15px;
           padding: 10px 12px;
-           border:none;
             border-radius: 5px;
             cursor: pointer;
            }
          input[type="submit"]:hover
          {
              color: black;
-           background-color:  rgb(41, 216, 41);
+         
          font-size: 15px;
      }
 }
@@ -181,4 +179,10 @@ input[type="submit"]:hover
         font-size: 28px;
     }
     
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px)
+{
+    .iitkgp{
+        font-size: 35px;
+       }
 }
